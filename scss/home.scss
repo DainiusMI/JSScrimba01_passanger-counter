@@ -6,7 +6,6 @@
     align-items: $align;
     justify-content: $justify;
 }
-
 @mixin flexRow($align, $justify) {
     display: flex;
     flex-direction: row;
@@ -14,7 +13,6 @@
     justify-content: $justify;
 }
 body {
-
     @include flexCol(center, center);
     height: 100vh;
     width: 100vw;
