@@ -1,0 +1,88 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body .container {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 2rem;
+  height: 50%;
+  width: 25%;
+  background-image: url(../station.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body .container h1, body .container p {
+  margin: 0;
+  color: black;
+}
+
+body .container p {
+  font-size: 3rem;
+}
+
+body .container .button {
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: .5rem;
+  background-color: #a10505;
+  color: white;
+  cursor: pointer;
+}
+
+body .container .button:hover {
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
+}
+
+body .container .button:last-of-type {
+  background-color: green;
+}
+
+body .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .row p {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=home.css.map */
